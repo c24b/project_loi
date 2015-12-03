@@ -1,0 +1,35 @@
+{
+  "name": "moissonneur-republique-numerique",
+  "version": "1.0.0",
+  "description": "Harvest https://www.republique-numerique.fr/.",
+  "main": "index.js",
+  "scripts": {
+    "convert-csv-files-to-spreadsheets": "node convert-csv-files-to-spreadsheets.js",
+    "extract-best-articles": "node extract-best-articles.js",
+    "extract-best-versions": "node extract-best-versions.js",
+    "fetch-json": "node fetch-json.js",
+    "fetch-pages": "node fetch-pages.js",
+    "merge-json-files": "node merge-json-files.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.framasoft.org/etalab/moissonneur-republique-numerique.git"
+  },
+  "keywords": [
+    "harvester",
+    "json"
+  ],
+  "author": "Emmanuel Raviart",
+  "license": "AGPL-3.0+",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.0.0",
+    "node-fetch": "^1.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0"
+  }
+}
